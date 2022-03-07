@@ -1,0 +1,18 @@
+.btn {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;  
+    background-color: rgb(104, 99, 99);
+    border: 0px;
+    color: antiquewhite;
+}
+
+.btn-ig:hover{
+    background-color:rgb(193, 104, 238);
+
+}
+
+.paginator-mod{
+ border-radius: 500%;   
+}
+
