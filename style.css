@@ -147,4 +147,15 @@ body {
 
 }
 
+.text-FAQ{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.text-FAQ:hover{
+  color: rgb(247, 199, 136);
+}
+
+
   
