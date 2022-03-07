@@ -1,3 +1,4 @@
+
 .btn {
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -7,12 +8,30 @@
     color: antiquewhite;
 }
 
+.btn-ig{
+    color: aliceblue;
+    background-color: rgb(104, 99, 99);
+    
+}
+
+.svg-mod{
+    color: white;
+}
+
+
+.svg-mod:hover{
+    color: black;
+}
 .btn-ig:hover{
     background-color:rgb(193, 104, 238);
-
 }
 
 .paginator-mod{
  border-radius: 500%;   
 }
 
+.acordion-mod:hover{
+    color: black;
+    background-color: antiquewhite;
+
+}
