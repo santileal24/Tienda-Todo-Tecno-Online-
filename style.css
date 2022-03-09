@@ -22,12 +22,12 @@ body {
   body header nav div div div a {
     text-decoration: none;
     color: antiquewhite;
-    font-size: 35px;
+    font-size: 20px;
   }
   
   body header nav div div div a:hover {
     color: #fae173;
-    font-size: 40px;
+    font-size: 23px;
   }
   
   body header nav div h1 a {
@@ -123,6 +123,18 @@ body {
     color: aliceblue;
     background-color: rgb(104, 99, 99);
     
+}
+
+.btn-productos{
+  background-color: antiquewhite;
+  color: black;
+  font-size: large;
+
+}
+
+.btn-productos:hover{
+  color: black;
+  background-color: rgb(247, 199, 136);
 }
 
 .svg-mod{
