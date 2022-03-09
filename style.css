@@ -22,12 +22,12 @@ body {
   body header nav div div div a {
     text-decoration: none;
     color: antiquewhite;
-    font-size: 40px;
+    font-size: 35px;
   }
   
   body header nav div div div a:hover {
     color: #fae173;
-    font-size: 21px;
+    font-size: 40px;
   }
   
   body header nav div h1 a {
@@ -42,7 +42,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
     width: 12%;
-    height: 8%;
+    height: 12%;
   }
   
   body header nav div h1 a:hover {
@@ -196,18 +196,18 @@ body {
       body header nav div div div a {
         text-decoration: none;
         color: antiquewhite;
-        font-size: 15px;
+        font-size: 18px;
       }
       
       body header nav div div div a:hover {
         color: #fae173;
-        font-size: 18px;
+        font-size: 20px;
       }
       
       body header nav div h1 a {
         text-decoration: none;
         color: antiquewhite;
-        font-size: 18px;
+        font-size: 20px;
         list-style: none;
       }
       
@@ -221,6 +221,7 @@ body {
       
       body header nav div h1 a:hover {
         color: #fae173;
+        font-size: 22px;
       }
       
       body main {
