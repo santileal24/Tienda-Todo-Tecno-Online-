@@ -176,6 +176,93 @@ body {
   width: 80%; height: 100%; display: block; margin: auto;
 }
 
+.buble-wp {
+  background-color: rgb(27, 190, 6);
+  width: 63px;
+  height: 63px;
+  border-radius: 50%;
+  border: transparent 0.5px solid;
+  position: fixed;
+  bottom: 5%;
+  right: 2%;
+  z-index: 100;
+  display: flex;
+  align-items:center;
+  justify-content:center;}
+
+.buble-wp-ajuste{
+  width: 58px;
+  height: 58px;
+  background-color: rgb(1, 226, 84);
+  color: white;
+  /* centrar vertical y horizontalmente */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -29px 0 0 -29px;
+
+  
+}
+
+.up{
+  align-items: center;
+  display: none;
+  position: fixed;
+  background-color: transparent;
+  height: 00px;
+  width: 00px;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 1%;
+  right: 1%;
+  bottom: 7%;
+
+}
+
+.up .text-up{
+  border: none;
+  background-color: none;
+  outline: none;
+  cursor: pointer;
+  color: black;
+  float: right;
+  padding: 0;
+  font-size: 16px;
+  line-height: 30px;
+  width: 0px;
+  transition: 0.4s;
+
+}
+
+.up .up-icon{
+  background-color: antiquewhite;
+  color: #fae173;
+  font-size: 20px;
+  float: right;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  transition: 0.4s;
+
+}
+
+.up:hover > .text-up{
+  width: 150px;
+  padding: 0 6px;
+
+}
+
+.up:hover > .up-icon{
+  background-color: aliceblue;
+}
+
+
+
+
+
+
 /*-----------------*/
 /*---MJQuery-------*/
   
@@ -321,5 +408,91 @@ body {
       .carrusel-pc{
         width: 100%; height: 100%;
       }
+
+      .up{
+        align-items: center;
+        display: none;
+        position: fixed;
+        background-color: transparent;
+        height: 00px;
+        width: 00px;
+        border-radius: 50%;
+        padding: 1%;
+        right: 0.5%;
+        bottom: 7%;
+      
+      }
+      
+      .up .text-up{
+        border: none;
+        background-color: none;
+        outline: none;
+        color: black;
+        float: right;
+        padding: 0;
+        font-size: 16px;
+        line-height: 30px;
+        width: 0px;
+        transition: 0.4s;
+      
+      }
+      
+      .up .up-icon{
+        background-color: antiquewhite;
+        color: #fae173;
+        font-size: 20px;
+        float: right;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        transition: 0.4s;
+      
+      }
+      
+      .up:hover > .text-up{
+        width: 150px;
+        padding: 0 6px;
+      
+      }
+      
+      .up:hover > .up-icon{
+        background-color: aliceblue;
+      }
+
+      
+  
+}
+
+@media screen and (max-width: 426px) {
+  
+  .buble-wp {
+    background-color: rgb(27, 190, 6);
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    border: transparent 0.5px solid;
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    z-index: 100;
+    align-items:center;
+    justify-content:center;
+    z-index: 10;}
+  
+  .buble-wp-ajuste{
+    width: 24px;
+    height: 24px;
+    background-color: rgb(1, 226, 84);
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -12px 0 0 -11.5px;
+    z-index: 10;
+  
+    
+  }
   
 }
