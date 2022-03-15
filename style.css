@@ -3,9 +3,23 @@
 
 *{
 font-family: 'Fredoka', sans-serif;
-
 }
 
+.ajuste-nosotros{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  text-decoration: underline #fae173;
+  font-size: 29px;
+}
+
+.diseno-form{
+  border: #fae173 solid 2px;
+  background-color: black;
+  color: antiquewhite;
+  padding: 5%;
+  border-radius: 30%;
+}
 
 
 body {
@@ -28,8 +42,9 @@ body {
   
   body header nav div div div a:hover {
     color: #fae173;
-    font-size: 23px;
+    font-size: 24px;
     transition: 0.6s;
+    z-index: 4;
   }
   
   body header nav div h1 a {
@@ -37,6 +52,7 @@ body {
     color: antiquewhite;
     font-size: 28px;
     list-style: none;
+    z-index: 3;
   }
   
   body header nav div h1 a img {
@@ -45,15 +61,15 @@ body {
             align-items: center;
     width: 12%;
     height: 12%;
-    transition: 0.4s;
+    transition: 0.6s;
   }
 
   body header nav div h1 a img:hover {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 18%;
-    height: 18%;
+    width: 16%;
+    height: 16%;
     transition: 0.6s;
   }
   
@@ -123,6 +139,36 @@ body {
   ///////////////////////////////*/
 
 
+
+.flex-search{
+  margin-right: 8%;
+  color: antiquewhite;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+
+}
+
+.ajuste-flex{
+  margin-top: 4%;
+  margin-bottom: 5%;
+  margin-right: 8%;
+}
+
+.ajuste-flex2{
+  margin-left:7%;
+  }
+
+
+.color-letras{
+  color:antiquewhite;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+
   .btn {
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -190,11 +236,12 @@ body {
 
 .buble-wp {
   background-color: rgb(27, 190, 6);
-  width: 63px;
-  height: 63px;
+  width: 55px;
+  height: 55px;
   border-radius: 50%;
   border: transparent 0.5px solid;
   position: fixed;
+  transition: 0.4s;
   bottom: 5%;
   right: 2%;
   z-index: 100;
@@ -207,14 +254,28 @@ body {
   height: 58px;
   background-color: rgb(1, 226, 84);
   color: white;
-  /* centrar vertical y horizontalmente */
   position: absolute;
   top: 50%;
   left: 50%;
   margin: -29px 0 0 -29px;
+  transition: 0.4s;
 
   
 }
+
+
+.buble-wp-ajuste:hover{
+  width: 65px;
+  height: 65px;
+  transition: 0.4s;
+  background-color: rgb(1, 226, 84);
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -29px 0 0 -29px;
+}
+
 
 .up{
   align-items: center;
@@ -260,15 +321,85 @@ body {
 
 }
 
-.up:hover > .text-up{
-  width: 150px;
-  padding: 0 6px;
-
-}
 
 .up:hover > .up-icon{
   background-color: aliceblue;
 }
+
+
+.flex-footer{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  
+}
+
+.logo-footer{
+  background-color: transparent;
+  width: 50px;
+  height:50.25px;
+  align-items: center;
+}
+
+.marginl{
+  margin-left: 40%;
+}
+
+.marginr{
+  margin-right: 40%;
+}
+
+.wp-footer{
+  text-decoration: none;
+  color:black;
+  height:26px;
+  width: 26px;
+}
+
+.ig-footer{
+  text-decoration: none;
+  color:black;
+  height:26px;
+  width: 26px;
+}
+
+.fb-footer{
+  text-decoration: none;
+  color:black;
+  height:26px;
+  width: 26px ;
+}
+
+.wp-footer:hover{
+  text-decoration: none;
+  color:black;
+}
+
+.ig-footer:hover{
+  text-decoration: none;
+  color:black;
+}
+
+.fb-footer:hover{
+  text-decoration: none;
+  color:black;
+}
+
+
+
+.ajuste-flex2{
+  text-decoration:none;
+}
+
+.ajuste-flex2:hover{
+  color: antiquewhite;
+}
+
+
+/*------------------------------------*/
+
 
 
 
@@ -279,16 +410,13 @@ body {
 /*---MJQuery-------*/
   
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1023px){
 
 
   *{
     font-family: 'Fredoka', sans-serif;
     font-size: x-small;
-    padding-left: 0%;
-    padding-right: 0%;
-
-    
+    padding-left: 0%; 
     }
     
     
@@ -321,7 +449,7 @@ body {
       body header nav div h1 a {
         text-decoration: none;
         color: antiquewhite;
-        font-size: 20px;
+        font-size: 16px;
         list-style: none;
       }
       
@@ -335,7 +463,7 @@ body {
       
       body header nav div h1 a:hover {
         color: #fae173;
-        font-size: 22px;
+        font-size: 18px;
       }
       
       body main {
@@ -473,38 +601,111 @@ body {
         background-color: aliceblue;
       }
 
+            
       
-  
-}
 
-@media screen and (max-width: 426px) {
+    @media screen and (max-width: 1023px) {
+
+      .flex-search{
+        margin-bottom: -5%;
+        display: block;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+        color: antiquewhite;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      
+      }
+      
+      .ajuste-flex{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-right: 4%;
+      }
+      
+      .ajuste-flex2{
+      margin-left: 20%;
+      }
+      
+      
+      
+      .color-letras{
+        margin-top: 5%;
+        color:antiquewhite;
+        font-size: 20px;
+        text-decoration: none;
+      }
   
-  .buble-wp {
-    background-color: rgb(27, 190, 6);
-    width: 31px;
-    height: 31px;
-    border-radius: 50%;
-    border: transparent 0.5px solid;
-    position: fixed;
-    bottom: 5%;
-    right: 2%;
-    z-index: 100;
-    align-items:center;
-    justify-content:center;
-    z-index: 10;}
-  
-  .buble-wp-ajuste{
-    width: 24px;
-    height: 24px;
-    background-color: rgb(1, 226, 84);
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -12px 0 0 -11.5px;
-    z-index: 10;
-  
+      .flex-footer{
+
+        display: none;
+        flex-direction: row;
+        justify-content: space-around;
+
+        
+      }
+
+      .logo-footer{
+        display: none;
+        background-color: white;
+        width: 30px;
+        height:30px;
+        border-radius: 50%;
+        border: black 1px solid;
+      }
+
+      .marginl{
+        margin-left: 20%;
+        display: none;
+      }
+
+      .marginr{
+        margin-right: 20%;
+        display: none;
+      }
+
+      .wp-footer{
+        text-decoration: none;
+        color:black;
+        height:19px;
+        width: 20px;
+      }
+
+      .ig-footer{
+        text-decoration: none;
+        color:black;
+        height:21px;
+        width: 22px;
+        display: none;
+      }
+
+      .fb-footer{
+        text-decoration: none;
+        color:black;
+        height:22px;
+        width: 22px;
+        display: none;
+      }
+
+      .wp-footer:hover{
+        text-decoration: none;
+        color:black;
+        display: none;
+      }
+
+      .logo-footer:hover{
+        background-color: #fae173;;
+        width: 25px;
+        height:25.12px;
+        border-radius: 50%;
+        border: black 1px solid;
+        display: none;
+
+      }
+      
+    }
     
   }
-  
-}
