@@ -3,6 +3,7 @@
 
 *{
 font-family: 'Fredoka', sans-serif;
+font-size: 22px;
 }
 
 .ajuste-nosotros{
@@ -36,7 +37,7 @@ body {
   body header nav div div div a {
     text-decoration: none;
     color: antiquewhite;
-    font-size: 20px;
+    font-size: 26px;
     transition: 0.4s;
   }
   
@@ -140,8 +141,9 @@ body {
 
 
 
+
 .flex-search{
-  margin-right: 8%;
+  margin-right: 22%;
   color: antiquewhite;
   background-color: black;
   display: flex;
@@ -158,9 +160,14 @@ body {
 }
 
 .ajuste-flex2{
-  margin-left:7%;
+  margin-left:22%;
   }
 
+
+.texto-f{
+  margin-right: 5%;
+  margin-left: 5%;
+}
 
 .color-letras{
   color:antiquewhite;
@@ -397,24 +404,18 @@ body {
   color: antiquewhite;
 }
 
-.ajuste-novedades{
- margin-left: 7.5%;
+
+.texto-nov{
+  font-size: 22px;
+  margin-top: 12%;
 }
 
-.letras-novedades1{
- font-size: 24px ;
- margin-top: 10%;
+.ajuste-acordion{
+  margin-left: 7%;
+  margin-right: 7%;
+  
 }
 
-.letras-novedades2{
-  font-size: 24px ;
-  margin-top: 15%;
- }
-
- .letras-novedades3{
-  font-size: 24px ;
-  margin-top: 15%;
- }
 /*------------------------------------*/
 
 
@@ -423,8 +424,34 @@ body {
 
 
 
-/*-----------------*/
+/*----ajuste-JQ-------------*/
 /*---MJQuery-------*/
+
+
+@media screen and (max-width: 1024px){
+
+
+  *{
+    font-family: 'Fredoka', sans-serif;
+    font-size: x-small;
+    padding-left: 0%; 
+    }
+    
+    .texto-nov{
+      margin-top: 0%;
+      font-size: 20px;
+      padding: 5%;
+      
+    }
+
+    .ajuste-border-video{
+      border: 2px solid antiquewhite;
+      margin-top: 5%;
+      margin: 3%;
+    }
+
+
+
   
 
 @media screen and (max-width: 767px){
@@ -436,11 +463,37 @@ body {
     padding-left: 0%; 
     }
     
-    
-    
+    .texto-nov{
+      font-size: 12px;
+      margin-top: 5%;
+      padding-left: 9%;
+      margin-right: 20%;
+    }
+
+    .ajuste-border-video{
+      border: 2px solid antiquewhite;
+      margin-top: 5%;
+      
+    }
+
+
+
+    main{
+      overflow-x: hidden;
+    }
+
+
+
+    .ajuste-JQ{
+      overflow-x: hidden;
+      height: 45%;
+      width: 100%;
+    }
+ 
     body {
         background-color: Black;
-        overflow: hidden;
+        overflow-x: hidden;
+        margin-left:4%;
 
       }
       
@@ -451,6 +504,7 @@ body {
         background-color: Black;
         margin-left: -2%;
         margin-right:-2%;
+        overflow: hidden;
       }
       
       body header nav div div div a {
@@ -488,6 +542,7 @@ body {
         margin-top: -5%;
         max-width: 100%;
         max-height: 100%;
+        margin-left: 0%;
       }
       
       body main h1 {
@@ -606,6 +661,7 @@ body {
         display: flex;
         justify-content: center;
         transition: 0.4s;
+        overflow: hidden;
       
       }
       
@@ -619,32 +675,6 @@ body {
         background-color: aliceblue;
       }
 
-      .letras-novedades1{
-        font-size: 12px ;
-        margin-top: 5%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-       
-       }
-       
-       .letras-novedades2{
-         font-size: 18px ;
-         margin-top: 10%;
-        
-        }
-       
-        .letras-novedades3{
-         font-size: 18px;
-         margin-top: 10%;
-        
-        }
-
-        .video{
-         margin: 30%;
-         width: 350px;
-         height: 157px;
-        }
       
 
             
@@ -652,13 +682,23 @@ body {
 
     @media screen and (min-width: 320px) {
       *{
-        overflow: auto;
+        padding-left: 0%;
+
+      }
+
+      .ajuste-acordion{
+        margin-left: 5%;
+      }
+
+      body{
+        margin-right: 5%;
       }
 
       body header nav div div div a {
         text-decoration: none;
         color: antiquewhite;
-        font-size: 15px;
+        font-size: 13px;
+        margin-left: 1%;
       }
 
       .flex-search{
@@ -759,36 +799,76 @@ body {
         border: black 1px solid;
         display: none;
 
+        
+
       }
 
-      .video{
-        margin-left: 20%;
-        margin-right: 20%;
-        width: auto;
-        height: auto;
-        overflow: visible;
-
-       }
-
-       
-      .letras-novedades1{
-        font-size: 10px ;
-        margin-top: 10%;
+      .texto-nov{
+        font-size: 10px;
+        margin-top: 0%;
+        padding-left: 10%;
+        margin-right: 10%;
+      }
+  
+      .ajuste-border-video{
+        border: 3px solid antiquewhite;
+        margin-top: 2%;
+        margin-left: -1%;
         
-       }
-       
-       .letras-novedades2{
-         font-size: 10px ;
-         margin-top: 60%;
-      
-        }
-       
-        .letras-novedades3{
-         font-size: 10px;
-         margin-top: 55%;
+        
+      }
+  
+  
+      .ajuste-JQ{
+        overflow-x: hidden;
+        height: 55%;
+        width: 100%;
+        
+      }
 
+      .ajuste-JQ2{
+        padding-right: 1%;
+        padding-left: 3%;
+        
+      }
+
+      .flex-search{
+        margin-right: 8%;
+        color: antiquewhite;
+        background-color: black;
+        display: none;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+      
+      }
+      
+      .ajuste-flex{
+        margin-top: 4%;
+        margin-bottom: 5%;
+        margin-right: 8%;
+        display: none;
+      }
+      
+      .ajuste-flex2{
+        margin-left:7%;
+        display: none;
         }
+      
+      .ajuste-nosotros{
+        font-size: 20px;
+        padding-bottom: 9%;
+        margin-top: -4%;
+      }
+  
+
+
+
+      
+
+
       
     }
-    
+
   }
+}
