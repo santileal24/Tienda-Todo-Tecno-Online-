@@ -3,7 +3,7 @@
 
 *{
 font-family: 'Fredoka', sans-serif;
-font-size: 22px;
+font-size: 18px;
 }
 
 .ajuste-nosotros{
@@ -15,12 +15,13 @@ font-size: 22px;
 }
 
 .diseno-form{
-  border: #fae173 solid 2px;
+
   background-color: black;
   color: antiquewhite;
   padding: 5%;
   border-radius: 30%;
 }
+
 
 
 body {
@@ -143,7 +144,7 @@ body {
 
 
 .flex-search{
-  margin-right: 22%;
+  margin-right: 8%;
   color: antiquewhite;
   background-color: black;
   display: flex;
@@ -160,14 +161,9 @@ body {
 }
 
 .ajuste-flex2{
-  margin-left:22%;
+  margin-left:8%;
   }
 
-
-.texto-f{
-  margin-right: 5%;
-  margin-left: 5%;
-}
 
 .color-letras{
   color:antiquewhite;
@@ -205,11 +201,7 @@ body {
 .svg-mod{
     color: white;
 }
-
-
-.svg-mod:hover{
-    color: black;
-}
+  
 .btn-ig:hover{
     background-color:rgb(193, 104, 238);
 }
